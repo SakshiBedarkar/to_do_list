@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/38ed7c1a60.js"></script>
+    <title>To do list</title>
+    <style>
+        html,body{
+            height: 100%;
+        }
+        .done{
+            text-decoration: line-through;
+        }
+    </style>
+</head>
+<body>
+<div class="container h-100">
+    <div class="row h-100">
+        <div class="col-12 my-5">
+            <div class="d-inline mx-auto">
+                <label for="to-do-item">To Do:</label>
+                <input type="text" id="to-do-item" class="form-control w-50" style="display: inline;">
+            </div>
+            <div class="d-inline">
+                    <i class="fa fa-plus btn btn-success" aria-hidden="true" id="add"></i>
+            </div>
+            <div class="card w-50 m-5" style="border: none;">
+                <div class="card-body">
+                    <ul class="list-group" class="" id="to-do-list">
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+    <script src="to_do_list.js"></script>
+    
+</body>
+</html>
